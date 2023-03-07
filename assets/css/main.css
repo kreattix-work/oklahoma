@@ -13593,3 +13593,21 @@ th {
 .locked-bg {
   background-color: #f3f3f3;
 }
+
+.shaded-table tbody tr td,
+.shaded-table tbody tr th {
+  border: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.shaded-table tbody tr td > div,
+.shaded-table tbody tr th > div {
+  background-color: #dfdfdf;
+  height: 80px;
+  padding: 5px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
